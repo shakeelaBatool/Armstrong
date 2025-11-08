@@ -8,7 +8,8 @@ while tmp_num > 0 :
       sum_power += digit ** num_digit
       tmp_num //= 10
 if sum_power == number:
-    print(f"{number} is a Armstrong number")    
+    print(f"{number} is an Armstrong number")    
 else:
     print(f"{number} is a not Armstrong number")
+
 
